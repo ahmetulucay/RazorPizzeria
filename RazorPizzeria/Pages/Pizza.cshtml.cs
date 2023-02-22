@@ -1,12 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
+
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace RazorPizzeria.Pages
+namespace RazorPizzeria.Pages;
+public class PizzaModel : PageModel
 {
-    public class PizzaModel : PageModel
+    public void OnGet()
     {
-        public void OnGet()
-        {
-        }
     }
 }

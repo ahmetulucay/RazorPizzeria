@@ -36,3 +36,13 @@ body {
     text-align:right;
     color:grey;
 }
+
+.makeYourOwnDiv{
+    background:grey;
+    margin:0;
+}
+
+.makeYourOwnText{
+    margin: 100px 0 20px 0;
+    color:white;
+}
