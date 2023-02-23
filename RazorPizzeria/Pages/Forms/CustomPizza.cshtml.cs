@@ -21,8 +21,8 @@ public class CustomPizzaModel : PageModel
         if (Pizza.Tuna) PizzaPrice += 1;
         if (Pizza.Beef) PizzaPrice += 1;
         if (Pizza.Ham) PizzaPrice += 1;
-        if (Pizza.Peperoni) PizzaPrice += 1;
-        if (Pizza.PineApple) PizzaPrice += 10;
+        if (Pizza.Pepperoni) PizzaPrice += 1;
+        if (Pizza.PineApple) PizzaPrice += 5;
         if (Pizza.Mushroom) PizzaPrice += 1;
 
         return RedirectToPage("/Checkout/Checkout", new {Pizza.PizzaName, PizzaPrice});

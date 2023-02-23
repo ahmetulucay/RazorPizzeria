@@ -3,4 +3,16 @@
 @{
 }
 
-<a class="nav-link text-dark" asp-area="" asp-page="Checkout/ThankYou">ThankYou</a>
+<h1>Your Order!</h1>
+@{
+    var imagePath = "~/images/Pizzas/" + (@Model.ImageTitle + ".png");
+}
+<div class="align-content-center">
+    <div class="col-3 mx-auto mb-5">
+        <img src=@imagePath class="w-100" asp-append-version="true" />
+        <p>Your order for the <strong>@Model.PizzaName Pizza</strong> is ready!</p>
+        <p>Total price for your order is: <strong>@Model.PizzaPrice $ </strong></p>
+        <br/>
+        <a class="btn alert-primary mt-1 mx-auto" asp-area="" asp-page="ThankYou">Confirm Order</a>
+    </div>
+</div>
