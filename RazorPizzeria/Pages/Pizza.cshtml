@@ -28,11 +28,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 mb-5">
-                <img src="" class="w-100" asp-append-version="true" />
-                <a class="btn btn-primary mt-1" asp-area="" asp-page="Checkout/Checkout">Get this Pizza!</a>
-                <br/>
-            </div>
+            @foreach (var pizza in Model.fakePizzaDb)
+            {
+                var photoPath = "~/images/Pizzas/" + (pizza.ImageTitle + ".png");
+
+                <div class="col-4 mb-5">
+                    <a class="pizza-img" asp-area="" asp-page="Checkout/Checkout" asp-route-PizzaName="@pizza.PizzaName" asp-route-ImageTitle="@pizza.ImageTitle" asp-route-PizzaPrice="@pizza.FinalPrice">
+                        <img src=@photoPath class="w-100" asp-append-version="true" />
+                     </a>
+                    <br />
+                </div>
+            }
         </div>
     </div>
 </div>
