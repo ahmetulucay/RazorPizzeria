@@ -12,7 +12,7 @@
 ![RazorPizzeria - Pizzas 2 Page](https://user-images.githubusercontent.com/57094137/220936707-45beca06-4a9f-4fd4-a69c-c518d77ea787.jpg)
 
 -------------------------------------------------
-3.Create Own Pizza Page
+3.Create Your Own Pizza Page
 
 ![RazorPizzeria - CreateOwnPizza Page](https://user-images.githubusercontent.com/57094137/220936729-e192eeb8-5cce-437b-a8a7-1e9cab5b2275.jpg)
 
@@ -27,7 +27,7 @@
 ![RazorPizzeria - Confirming ThankYou Page](https://user-images.githubusercontent.com/57094137/220936788-1a04643b-6233-4f7e-a23b-dbf4515e2290.jpg)
 
 -------------------------------------------------
-6.Orders Page
+6.Orders List Page
 
 ![RazorPizzeria - Orders Page](https://user-images.githubusercontent.com/57094137/220936807-a7c91024-ba76-4b8f-9d35-27a3e533e83d.jpg)
 
