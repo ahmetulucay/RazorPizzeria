@@ -1,5 +1,6 @@
 # RazorPizzeria
 
+ASP.NET Core & EF, MVVM Architecture, Razor pages, MSSQL.  
 -------------------------------------------------
 1.Home Page
 
